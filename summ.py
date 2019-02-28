@@ -12,5 +12,6 @@
 marks = {'2a': [5, 5, 4, 5, 3, 3, 2, 5, 4]}
 print(marks['2a'])
 marks_sum = 0
-#marks_sum = marks_sum + marks['2a']
+for marks_sum in marks['2a']
+ marks_sum = marks_sum + marks['2a']
 print(marks_sum)  # тут должно быть 36, сумма оценок 2а
