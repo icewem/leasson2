@@ -6,6 +6,12 @@ for go_screen in list_str:
     go_screen = int(go_screen) + 1  
     print(go_screen)
 
+# сложить числа
+
+list_str = {"1","3","5","7","9","11","13","15","17","19"}
+for go_screen in list_str:
+    go_screen = int(go_screen) + int(go_screen)  
+    print(go_screen)
 
 # Ввести с клавиатуры строку.
 # Вывести эту же строку вертикально: по одному символу на строку консоли.
@@ -36,6 +42,5 @@ shool_perfomance = [
     {'school_class': '5b', 
     'scores': [5,5,4,3,5,2,4,5,2]}
 ]
-for average_scores in shool_perfomance:
-    shool_perfomance = shool_perfomance['scores']
-    print(shool_perfomance)
+#for average_scores in shool_perfomance:
+#    print(shool_perfomance)
